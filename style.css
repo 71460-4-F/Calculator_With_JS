@@ -1,0 +1,52 @@
+
+.formCalc{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    width: 175px;
+    height: 255px;
+    border-radius: 3%;
+}
+
+#modelCalc{
+    font-size: 60%;
+    text-align: left;
+    color: white;
+}
+
+@font-face { 
+    font-family: "digital-clock-font";
+    src: url("fonts/digital-7.regular.ttf") format("truetype");
+    }
+
+#visor{
+    font-family: 'digital-clock-font';
+    font-weight: bold;
+    font-size: 190%;
+    width: 168px;
+    height: 35px;
+    text-align: right;
+    background-color: rgb(4, 65, 4);
+    border-radius: 0%;
+}
+
+.formCalc input{
+    margin-bottom: 4px;
+    font-weight: bold;
+    background-color:grey;
+    width: 40px;
+    height: 30px;
+    border-radius: 8%;
+}
+
+#btOff{
+    background-color:firebrick;
+}
+#btOn{
+    background-color:rgba(253, 253, 253, 0.87);
+}
+
+#btClear{
+    background-color:rgb(32, 41, 158);
+}

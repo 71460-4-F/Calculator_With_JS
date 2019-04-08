@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+    <form class="formCalc" name="formCalc">
+        <h2 id="modelCalc">TAF X-89</h2>
+        <input id="visor" type="text" name="visor"><br><br>
+        <input id="btOn" type="button" value="ON" onclick="ligarCalc();"> 
+        <input id="btClear" type="button" value="C" onclick="limparVisor();"> 
+        <input id="btOff" type="button" value="OFF" onclick="desligarCalc();"> 
+        <input type="button" value="÷" onclick="botao(value='/' );"><br>
+        <input type="button" value="7" onclick="botao(value);">   
+        <input type="button" value="8" onclick="botao(value);"> 
+        <input type="button" value="9" onclick="botao(value);"> 
+        <input type="button" value="x" onclick="botao('*');"> <br>
+        <input type="button" value="4" onclick="botao(value);"> 
+        <input type="button" value="5" onclick="botao(value);"> 
+        <input type="button" value="6" onclick="botao(value);"> 
+        <input type="button" value="-" onclick="botao(value);"> <br>
+        <input type="button" value="1" onclick="botao(value);"> 
+        <input type="button" value="2" onclick="botao(value);"> 
+        <input type="button" value="3" onclick="botao(value);"> 
+        <input type="button" value="+" onclick="botao(value);"> <br>
+        <input type="button" value="." onclick="botao(value);"> 
+        <input type="button" value="0" onclick="botao(value);"> 
+        <input type="button" value="+/-" onclick="trocarSinal();"> 
+        <input type="button" value="=" onclick="resultado();"><br>
+    </form>
+
+
+
+
+    
+</body>
+</html>
